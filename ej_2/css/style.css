@@ -1,0 +1,43 @@
+body {
+    background-color: #F5F5F5
+}
+
+.container {
+    width: 900px;
+}
+
+.row img {
+    width: 35px;
+}
+
+h1 {
+    color: #409AF7;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+input, textarea {
+    width: inherit;
+    padding: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dfdfdf;
+}
+
+textarea {
+    height: 170px;
+}
+
+#text_area_row {
+    height: 200px;
+}
+
+.row {
+    margin-top: 20px;
+}
+
+#text_area_row {
+}

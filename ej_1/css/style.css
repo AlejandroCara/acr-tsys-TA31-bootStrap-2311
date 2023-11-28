@@ -1,0 +1,127 @@
+body {
+    background-image: url(../img/difuminated_background.webp);
+    background-size: cover;
+}
+
+#main_comtainer {
+    width: 38vw;
+}
+
+#title_row {
+    margin-top: 200px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h1, #subtitle_row p, #login_options {
+    color: white;
+}
+
+
+#login_frame_top {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: white;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#login_frame_top div{
+    background-color: white;
+}
+
+#lock_img {
+    width: 50px;
+    margin-top: 20px;
+}
+
+#login_frame_top p, h2, #login_frame_bottom input::placeholder {
+    color: #b3b3b3;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 25px;
+}
+
+#login_frame_top p {
+    margin-bottom: 30px;
+}
+
+#login_frame_bottom {
+    background-color: #E3E3E4;
+}
+
+#login_frame_bottom input{
+    width: inherit;
+    border-color: #c9c9c9;
+    border-width: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 7px;
+}
+
+#login_frame_bottom input:focus {
+    outline: 1px solid #aaaaaa;
+}
+
+#login_frame_bottom button {
+    width: inherit;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #4ADDC1;
+}
+
+#login_frame_bottom button:hover {
+    background-color: #3cb6a0;
+}
+
+#login_options p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#login_options button:nth-child(1), #login_options button:nth-child(2) {
+    padding: 10px;
+}
+
+#login_options button:nth-child(3) {
+    padding: 7px
+}
+
+#login_options button:first-child img {
+    height: 20px;
+}
+
+#login_options button:nth-child(2) img {
+    width: 20px;
+}
+
+#login_options button:nth-child(3) img {
+    width: 30px;
+}
+
+#login_options button img {
+    margin-right: 5px;
+}
+
+#login_options button {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #b3b3b3;
+    color: #b3b3b3;
+    /* background-color: rgb(30, 21, 16, 0.3); */
+    background-color: #1E1510;
+    opacity: 0.5;
+}
+
+#login_options button:hover {
+    opacity: 0.8;
+}

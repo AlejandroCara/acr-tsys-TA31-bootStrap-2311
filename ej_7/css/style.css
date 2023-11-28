@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(236, 236, 236);
+}
+
+#cv_content {
+    background-color: white;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#header {
+    background-color: aquamarine;
+    background-image: url(../img/background_1.png);
+    background-position: -300px -600px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    margin-top: 20px;
+}
+
+.icon {
+    width: 40px;
+    margin-top: 15px;
+}
+
+#icon_col {
+    flex-direction: column;
+}
+
+#profile_picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-width: 4px;
+    border-color: white;
+    border-style: solid;
+}
+
+#header_left {
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.text_block_header {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(231, 231, 231);
+    margin-bottom: 7px;
+}
+
+.text_block_header img{
+    width: 22px;
+    height: 22px;
+    background-color: #2B9E8D;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.text_block_header p {
+    color: #2B9E8D;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.mid_col_content {
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+h1, h2 {
+    color: white;
+}
+
+#file_icon {
+    width: 30px;
+    margin-right: 6px;
+}
+
+#linkedin_icon {
+    width: 30px;
+    margin-right: 6px;
+}
+
+#chain_icon {
+    width: 35px;
+    margin-right: 4px;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+#footer img{
+    width: 60px;
+    height: 36px;
+    justify-self: center;
+}
+
+span {
+    color: #2B9E8D;
+}
+
+#pin_icon {
+    padding-left: 6px;
+    padding-right: 6px;
+}
